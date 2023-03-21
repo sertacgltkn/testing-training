@@ -1,3 +1,5 @@
+import React from "react";
+import Form from "./components/form";
 
 function App() {
   return (
@@ -6,6 +8,7 @@ function App() {
     Modern Testing
     </p>
     <button>Button</button>
+    <Form />
     </div>
   );
 }
